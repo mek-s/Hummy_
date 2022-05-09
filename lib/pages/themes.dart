@@ -38,7 +38,7 @@ class _ThemesState extends State<Themes> {
             onChanged: (value) {
               setState(() {
                 groupValue_5 = value as int;
-                Navigator.pushNamed(
+                Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => const Avatars()));//espace parent
 
