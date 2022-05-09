@@ -1,9 +1,8 @@
 
 import 'package:flutter/material.dart';
-
-
 import 'package:fradio_nullsafety/fradio_nullsafety.dart';
 import 'package:Hummy/pages/bienvenue.dart';
+
 class Avatars extends StatefulWidget {
   const Avatars({Key? key}) : super(key: key);
 

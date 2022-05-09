@@ -145,7 +145,7 @@ class _InscrireState extends State<Inscrire> {
                                   ),
                                   textColor: Colors.white,
                                   onPressed: () {
-                                    Navigator.pushNamed(context, '/Inscrire');
+                                    Navigator.pushNamed(context, '/Avatars');
                                   }),
                             ),
                           ],

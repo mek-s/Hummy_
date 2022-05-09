@@ -135,7 +135,7 @@ class _SeconnecterState extends State<Seconnecter> {
                                   textColor: Colors.white,
                                   onPressed: () {
                                     Navigator.pushNamed(
-                                        context, '/Seconnecter');
+                                        context, '/themes');
                                   }),
                             ),
                           ],

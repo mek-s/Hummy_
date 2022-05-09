@@ -1,3 +1,4 @@
+import 'package:Hummy/pages/Avatars.dart';
 import 'package:flutter/material.dart';
 import 'package:Hummy/pages/Questions.dart';
 import 'package:Hummy/pages/themes.dart';
@@ -36,11 +37,13 @@ class _MyAppState extends State<MyApp> {
         '/petitDejeuner': (context) => PetitDejeuner(),
         '/Dejeuner': (context) => Dejeuner(),
         '/Diner': (context) => Diner(),
+        '/Avatars': (context)=> Avatars(),
+        '/Questions':((context) => Questions()),
       },
 
-      theme: ThemeData(fontFamily: 'FredokaOne'),
-      home:const Themes(),
-      debugShowCheckedModeBanner: false,
+      // // theme: ThemeData(fontFamily: 'FredokaOne'),
+      // home:const Themes(),
+      // debugShowCheckedModeBanner: false,
     );
   }
 }

@@ -38,7 +38,7 @@ class _ThemesState extends State<Themes> {
             onChanged: (value) {
               setState(() {
                 groupValue_5 = value as int;
-                Navigator.push(
+                Navigator.pushNamed(
                     context,
                     MaterialPageRoute(builder: (context) => const Avatars()));//espace parent
 
@@ -154,9 +154,8 @@ class _ThemesState extends State<Themes> {
                             //const SizedBox(height: 1000),
                             //const SizedBox(height: 100),
                             ElevatedButton(onPressed: (){if (kDebugMode) {
-                              Navigator.push(
-                                  context,
-                                  MaterialPageRoute(builder: (context) => const Questions()));
+                              Navigator.pushNamed(
+                                  context,'/petitDejeuner');
 
                             }},
                               child: const Text('Petit déjeuner',style: TextStyle(color:  Color(
