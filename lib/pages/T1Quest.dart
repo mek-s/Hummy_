@@ -1,10 +1,8 @@
 
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:try1/pages/bienvenue.dart';
-import 'package:try1/pages/themes.dart';
-
-
+import 'package:Hummy/bienvenue.dart';
+import 'package:Hummy/themes.dart';
 class PetDej1 extends StatefulWidget {
   const PetDej1({ Key? key }) : super(key: key);
 
