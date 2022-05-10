@@ -1,11 +1,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:fradio_nullsafety/fradio_nullsafety.dart';
-import 'package:try1/DDQuest/Petit-Dej/T11Quest.dart';
-import 'package:try1/DDQuest/Petit-Dej/T13Quest.dart';
-import 'package:try1/DDQuest/Petit-Dej/T1Quest.dart';
-import 'package:try1/pages/Avatars.dart';
-import 'package:try1/pages/themes.dart';
+import 'package:Hummy/pages/T11Quest.dart';
+import 'package:Hummy/pages/T13Quest.dart';
+import 'package:Hummy/pages/T1Quest.dart';
+import 'package:Hummy/pages/Avatars.dart';
+import 'package:Hummy/pages/themes.dart';
 
 class PdNiv1Quest extends StatefulWidget {
   const PdNiv1Quest({Key? key}) : super(key: key);
