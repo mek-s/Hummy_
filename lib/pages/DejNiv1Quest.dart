@@ -1,9 +1,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:fradio_nullsafety/fradio_nullsafety.dart';
-import 'package:try1/DDQuest/Dej/T5Quest.dart';
-import 'package:try1/pages/Avatars.dart';
-import 'package:try1/pages/themes.dart';
+import 'package:Hummy/pages/T5Quest.dart';
+import 'package:Hummy/pages/Avatars.dart';
+import 'package:Hummy/pages/themes.dart';
 
 class DejNiv1Quest extends StatefulWidget {
   const DejNiv1Quest({Key? key}) : super(key: key);
