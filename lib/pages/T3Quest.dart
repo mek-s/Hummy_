@@ -2,7 +2,7 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:Hummy/pages/bienvenue.dart';
-import 'package:Hummy/pages/try1/pages/themes.dart';
+import 'package:Hummy/pages/themes.dart';
 
 
 class PetDej3 extends StatefulWidget {
