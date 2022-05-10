@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:Hummy/pages/DejNiv1Quest.dart';
-import 'package:Hummy/pages/DejNiv2Quest.dart';
-import 'package:Hummy/pages/DejNiv3Quest.dart';
+import 'package:Hummy/pages/DinNiv1Quest.dart';
+import 'package:Hummy/pages/DinNiv2Quest.dart';
+import 'package:Hummy/pages/DinNiv3Quest.dart';
 class Diner extends StatefulWidget {
   const Diner({Key? key}) : super(key: key);
 
@@ -77,7 +77,7 @@ class _DinerState extends State<Diner> {
                         onPressed: () {
                          Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => const DejNiv1Quest()));
+                          MaterialPageRoute(builder: (context) => const DinNiv1Quest()));
                         }),
                   ),
                 ),
@@ -111,7 +111,7 @@ class _DinerState extends State<Diner> {
                         onPressed: () {
                          Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => const DejNiv2Quest()));
+                          MaterialPageRoute(builder: (context) => const DinNiv2Quest()));
                         }),
                   ),
                 ),
@@ -145,7 +145,7 @@ class _DinerState extends State<Diner> {
                         onPressed: () {
                           Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => const DejNiv3Quest()));
+                          MaterialPageRoute(builder: (context) => const DinNiv3Quest()));
                         }),
                   ),
                 ),
