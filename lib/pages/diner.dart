@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'package:Hummy/pages/DejNiv1Quest.dart';
+import 'package:Hummy/pages/DejNiv2Quest.dart';
+import 'package:Hummy/pages/DejNiv3Quest.dart';
 class Diner extends StatefulWidget {
   const Diner({Key? key}) : super(key: key);
 
@@ -72,7 +75,9 @@ class _DinerState extends State<Diner> {
                         ),
                         textColor: Color(0xFF010158),
                         onPressed: () {
-                          Navigator.pushNamed(context, '/Inscrire');
+                         Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const DejNiv1Quest()));
                         }),
                   ),
                 ),
@@ -104,7 +109,9 @@ class _DinerState extends State<Diner> {
                         ),
                         textColor: Color(0xFF010158),
                         onPressed: () {
-                          Navigator.pushNamed(context, '/Inscrire');
+                         Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const DejNiv2Quest()));
                         }),
                   ),
                 ),
@@ -136,7 +143,9 @@ class _DinerState extends State<Diner> {
                         ),
                         textColor: Color.fromARGB(255, 17, 17, 78),
                         onPressed: () {
-                          Navigator.pushNamed(context, '/Inscrire');
+                          Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const DejNiv3Quest()));
                         }),
                   ),
                 ),
