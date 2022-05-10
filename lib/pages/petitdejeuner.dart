@@ -1,7 +1,9 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
-
+import 'package:Hummy/pages/PdNiv1Quest.dart';
+import 'package:Hummy/pages/PdNiv2Quest.dart';
+import 'package:Hummy/pages/PdNiv3Quest.dart';
 class PetitDejeuner extends StatefulWidget {
   const PetitDejeuner({Key? key}) : super(key: key);
 
@@ -74,7 +76,9 @@ class _PetitDejeunerState extends State<PetitDejeuner> {
                         ),
                         textColor: Color(0xFF010158),
                         onPressed: () {
-                          Navigator.pushNamed(context, '/Inscrire');
+                           Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const PdNiv1Quest()));
                         }),
                   ),
                 ),
@@ -106,7 +110,9 @@ class _PetitDejeunerState extends State<PetitDejeuner> {
                         ),
                         textColor: Color(0xFF010158),
                         onPressed: () {
-                          Navigator.pushNamed(context, '/Inscrire');
+                          Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const PdNiv2Quest()));
                         }),
                   ),
                 ),
@@ -138,7 +144,9 @@ class _PetitDejeunerState extends State<PetitDejeuner> {
                         ),
                         textColor: Color.fromARGB(255, 17, 17, 78),
                         onPressed: () {
-                          Navigator.pushNamed(context, '/Inscrire');
+                          Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const PdNiv3Quest()));
                         }),
                   ),
                 ),
