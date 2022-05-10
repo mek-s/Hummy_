@@ -1,9 +1,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:fradio_nullsafety/fradio_nullsafety.dart';
-import 'package:try1/DDQuest/Diner/T9Quest.dart';
-import 'package:try1/pages/Avatars.dart';
-import 'package:try1/pages/themes.dart';
+import 'package:Hummy/pages/9Quest.dart';
+import 'package:Hummy/pages/Avatars.dart';
+import 'package:Hummy/pagesthemes.dart';
 
 class DinNiv2Quest extends StatefulWidget {
   const DinNiv2Quest({Key? key}) : super(key: key);
