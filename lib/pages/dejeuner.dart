@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/material/icons.dart';
+import 'package:Hummy/pages/DejNiv1Quest.dart';
+import 'package:Hummy/pages/DejNiv2Quest.dart';
+import 'package:Hummy/pages/DejNiv3Quest.dart';
 
 class Dejeuner extends StatefulWidget {
   const Dejeuner({Key? key}) : super(key: key);
@@ -73,7 +76,9 @@ class _DejeunerState extends State<Dejeuner> {
                         ),
                         textColor: Color(0xFF010158),
                         onPressed: () {
-                          Navigator.pushNamed(context, '/Inscrire');
+                                                 Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const DejNiv1Quest()));
                         }),
                   ),
                 ),
@@ -105,7 +110,9 @@ class _DejeunerState extends State<Dejeuner> {
                         ),
                         textColor: Color(0xFF010158),
                         onPressed: () {
-                          Navigator.pushNamed(context, '/Inscrire');
+                                                 Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const DejNiv2Quest()));
                         }),
                   ),
                 ),
@@ -137,7 +144,9 @@ class _DejeunerState extends State<Dejeuner> {
                         ),
                         textColor: Color.fromARGB(255, 17, 17, 78),
                         onPressed: () {
-                          Navigator.pushNamed(context, '/Inscrire');
+                                                  Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const DejNiv3Quest()));
                         }),
                   ),
                 ),
