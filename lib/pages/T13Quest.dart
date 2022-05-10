@@ -2,8 +2,8 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:try1/pages/bienvenue.dart';
-import 'package:try1/pages/themes.dart';
+import 'package:Hummy/pages/bienvenue.dart';
+import 'package:Hummy/pages/themes.dart';
 
 
 class ChoixPetDej1 extends StatefulWidget {
