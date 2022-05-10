@@ -182,8 +182,10 @@ class _ThemesState extends State<Themes> {
 
                           const SizedBox(height: 150),
                           ElevatedButton(onPressed: (){if (kDebugMode) {
-                            print('hello');
-                          }},
+                              Navigator.pushNamed(
+                                  context,'/Dejeuner');
+
+                            }},
                             child: const Text('Déjeuner',style: TextStyle(color: Color(
                                 0xff010158),fontSize:30)),
                             style:
@@ -207,9 +209,11 @@ class _ThemesState extends State<Themes> {
                       child: Row(mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           const SizedBox(height: 170),
-                          ElevatedButton(onPressed: (){if (kDebugMode) {
-                            print('hello');
-                          }},
+                         onPressed: (){if (kDebugMode) {
+                              Navigator.pushNamed(
+                                  context,'/Diner');
+
+                            }},
                             child: const Text('Diner',style:  TextStyle(color: Color(
                                 0xff010158),fontSize: 30)),
 
